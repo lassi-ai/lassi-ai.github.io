@@ -61,7 +61,14 @@
 
         <section id="introduction">
             <h2>Introduction</h2>
-            <p>This section introduces the research idea, providing background information and outlining the main objectives of the study.</p>
+            <p>
+              The project centers around developing a versatile and intelligent robot, powered by the LLaMA 3.1 model, designed to assist people in various settings such as hospitals, apartments, and other environments. At the heart of this innovation is LLaMA 3.1, which acts as the central brain, enabling the robot to understand and process a wide range of inputs, including sign language, spoken language, and visual data.
+              
+              The robot is equipped with multiple advanced models to achieve this. Sign language is translated into spoken language through a specialized detection system, transforming gestures into understandable sentences. Whisper AI, a robust speech recognition system, transcribes spoken language into text with remarkable accuracy, even in noisy environments. These inputs are then processed by the LLaMA 3.1 model, which makes critical decisions regarding the robot's next actions.
+              
+              To navigate and interact within its environment, the robot utilizes an object detection model and the RTAB-Map for real-time SLAM (Simultaneous Localization and Mapping), creating a detailed 3D map of its surroundings. The object detection model identifies and recognizes objects, generating prompts for the LLaMA model, which in turn formulates waypoints for navigation. These waypoints are then used by the ROS2 navigation stack to guide the robot effectively.
+              
+              The integration of these technologies allows the robot to be highly adaptive and user-friendly, making it a valuable tool for assisting people in various contexts. Whether aiding patients in hospitals, helping residents in apartments, or assisting in other public or private spaces, this robot is designed to be accessible and beneficial to everyone, demonstrating the immense potential of AI-driven assistance in everyday life.</p>
         </section>
 
         <section id="methodology">
